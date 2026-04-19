@@ -1,0 +1,59 @@
+.resume-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.profile-img {
+  border: 5px solid #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.card {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 15px;
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0 !important;
+  font-weight: bold;
+}
+
+.progress {
+  height: 8px;
+  border-radius: 10px;
+  background-color: #e9ecef;
+}
+
+.progress-bar {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #007bff, #6610f2);
+}
+
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+  transition: all 0.3s;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 20px 10px;
+  }
+  
+  .profile-img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
